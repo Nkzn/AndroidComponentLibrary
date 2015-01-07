@@ -41,7 +41,7 @@ uploadArchives {
     repositories {
         mavenDeployer {
             repository url: "file://${deployTo}"
-            pom.version = '0.0.2'
+            pom.version = '0.0.3'
             pom.groupId = 'jp.classmethod.android'
             pom.artifactId = 'componentlibrary'
         }
